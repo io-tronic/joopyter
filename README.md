@@ -1,2 +1,77 @@
-# joopyter
+# JOOPYTER
 Design Files for the Joopyter Personal Terminal
+
+This project was envisioned when I found a [mini thermal printer](https://www.adafruit.com/product/597) sitting in one of the parts piles in my local makerspace. Apparently some particularly persnickety person demanded receipts for their 3d printer usage and then promptly left and nobody bothered to implement anything with the receipt printers that they had bought. Me, Gian, the Io of ***Io Mechatronics***, being fascinated with disused and interesting things, tried to implement the receipt printer for an upcoming art project. Seeing the printer hooked up to a Raspberry Pi got me all inspired and after a long break and some hard thinking, I went to implement those inspirations.
+
+---------
+
+## Parts
+
+  - Raspberry Pi Zero W (a Zero 2 W is on its way)
+  - 2.8in piTFT display from Adafruit (out of stock now, but similar is available)
+  - A2 Micro Panel Thermal Printer
+  - 2x Random male USB cables
+  - Various JST connectors
+  - Anker PowerCore 15600 battery
+  - HARDWARE:
+    - 10" x 5/16 Aluminum Rod (x2)
+    - 1/4-20 x 3.25 Socket-Head Screws
+    - A bag of tiny thread-forming 2.5mm screws
+    - 3mm cap-head screws x4
+    - 3mm socket-head screws x4
+    - 2.5mm flat-head screws x4
+    - #4-32 x 1" screws x2
+
+
+
+## Process
+
+#### Step 1: Design
+
+Made mockups of all the parts in cad, arranged them, put a case around them, super ez....
+
+![image](https://user-images.githubusercontent.com/37963057/160062288-b3f04ee9-c346-4566-a2ad-3e9e7d47b954.png)
+
+The hinge design is from [Yarh.io](https://yarh.io/). The design files are not currently released, and were only given to me as binaries, so I'm not going to post my modified version here without Mx.Yarh.io's permission. The keeb design is also loosely based on another design from Yarh.io, but very heavily modified.
+
+
+#### Step 2: Printing
+
+(forgot to take a picture on the bed)
+
+Everything Fits!
+
+#### Step 4: Electronics (round 1)
+
+At this point, I wanted to get the electronics worked out to see if my plans were actually going to work.
+
+Chopped and required a ribbon cable in the middle. Serial and power for the printer connect here, as well as the battery. Simple rails. Would have been better with strip-board instead of cheapo perf-board.
+
+Wired both outputs from the battery together to get the current (did not know this was a bad idea at the time)
+
+#### Step 4: Keeb
+
+I do like me some handwired Keebs, and I do like me some Circuitpython KMK
+
+So satisfying.
+
+Finished Keeb (I returned these keycaps later cuz they sucked)
+
+#### Step 5: Hinge
+
+I did not take a lot of pictures of the hinge cuz it really sucked to put together. I made about 4 different iterations of the hinge before I settled on something with the right ID and wall thickness. I should have just printed it at 100% from the get-go.
+
+
+#### Step 6: Assembly
+
+Kind of a mess inside, but hopefully heatshrink and electrical tape will keep everything from shorting out. The Printer is fixed in with some clamp-y T-shaped thingies and a bunch of hot glue. I could have designed that better.
+
+#### Step 7: Keyboard Broke 😢
+
+The pi pico randomly stopped working. It was intermittent at first, but now its flash isn't recognized by the computer, and it isn't sending any input when keys are pressed. When I plugged it into my other computer and open dmesg, it gives me this error:
+
+
+I didn't have a lot of time to troubleshoot it because I was flying out for spring break the morning after it broke. Had to swap it out and threw in a capacitor to smooth out any current spikes. Hope that holds...
+
+## Final Product
+
