@@ -5,6 +5,16 @@ This project was envisioned when I found a [mini thermal printer](https://www.ad
 
 ---------
 
+## Advertisments
+
+Went for something a little more solarpunk than cyberpunk :)
+
+![image](https://github.com/gian-tronic/joopyter/blob/main/PortableMusic.png?raw=true)
+
+![image](https://github.com/gian-tronic/joopyter/blob/main/EcoFriendly.png?raw=true)
+
+-----------
+
 ## Parts
 
   - Raspberry Pi Zero W (a Zero 2 W is on its way)
@@ -105,13 +115,15 @@ The thing is really rugged, I've been carrying this around school and around tow
 
 ![image](https://github.com/gian-tronic/joopyter/blob/main/img/finishedlunchbox.jpg?raw=true)
 
+Some extra images from the advertisement photoshoot
+![image](https://github.com/gian-tronic/joopyter/blob/main/img/photoshoot%20extras/jamming.jpg?raw=true)
+![image](https://github.com/gian-tronic/joopyter/blob/main/img/photoshoot%20extras/flamingo.jpg?raw=true)
+![image](https://github.com/gian-tronic/joopyter/blob/main/img/photoshoot%20extras/frustrated.jpg?raw=true)
+![image](https://github.com/gian-tronic/joopyter/blob/main/img/photoshoot%20extras/jamming2.jpg?raw=true)
+
 
 ---------
-## Advertisments
 
-Went for something a little more solarpunk than cyberpunk :)
+![image](https://github.com/gian-tronic/joopyter/blob/main/img/IO.png?raw=true)
 
-![image](https://github.com/gian-tronic/joopyter/blob/main/PortableMusic.png?raw=true)
-
-![image](https://github.com/gian-tronic/joopyter/blob/main/EcoFriendly.png?raw=true)
 
