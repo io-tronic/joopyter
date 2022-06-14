@@ -1,7 +1,7 @@
 # JOOPYTER
 Design Files for the Joopyter Personal Terminal
 
-This project was envisioned when I found a [mini thermal printer](https://www.adafruit.com/product/597) sitting in one of the parts piles in my local makerspace. Apparently some particularly persnickety person demanded receipts for their 3d printer usage and then promptly left and nobody bothered to implement anything with the receipt printers that they had bought. Me, Gian, the Io of ***Io Mechatronics***, being fascinated with disused and interesting things, tried to implement the receipt printer for an upcoming art project. Seeing the printer hooked up to a Raspberry Pi got me all inspired and after a long break and some hard thinking, I went to implement those inspirations.
+This project was envisioned when I found a [mini thermal printer](https://www.adafruit.com/product/597) sitting in one of the parts piles in my local makerspace. Apparently some particularly persnickety person demanded receipts for their 3d printer usage and then promptly left and nobody bothered to implement anything with the receipt printers that they had bought. Me, the Io of ***Io Mechatronics***, being fascinated with disused and interesting things, tried to implement the receipt printer for an upcoming art project. Seeing the printer hooked up to a Raspberry Pi got me all inspired and after a long break and some hard thinking, I went to implement those inspirations.
 
 ---------
 
